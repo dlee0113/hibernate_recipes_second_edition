@@ -18,9 +18,9 @@ public class EnhancedTableIdEntity {
             @Parameter(name = "initial_value", value = "1000"),
             @Parameter(name = "increment_size", value = "10") 
             })
-    public Long id;
+    private Long id;
     @Column
-    public String field;
+    private String field;
 
     public long getId() {
         return id;

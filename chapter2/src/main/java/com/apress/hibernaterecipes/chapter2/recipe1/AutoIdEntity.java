@@ -6,9 +6,9 @@ import javax.persistence.*;
 public class AutoIdEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public Long id;
+    private Long id;
     @Column
-    public String field;
+    private String field;
 
     public long getId() {
         return id;

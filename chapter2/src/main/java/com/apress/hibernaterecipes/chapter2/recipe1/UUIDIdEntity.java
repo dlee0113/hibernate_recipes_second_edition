@@ -9,9 +9,9 @@ import javax.persistence.Id;
 public class UUIDIdEntity {
     @Id
     @GeneratedValue(generator = "uuid")
-    public String id;
+    private String id;
     @Column
-    public String field;
+    private String field;
 
     public String getId() {
         return id;

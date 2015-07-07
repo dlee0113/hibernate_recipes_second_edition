@@ -17,9 +17,9 @@ public class SequenceStyleIdEntity {
             @Parameter(name = "increment_size", value = "10") 
             })
 
-    public Long id;
+    private Long id;
     @Column
-    public String field;
+    private String field;
 
     public long getId() {
         return id;

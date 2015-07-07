@@ -7,9 +7,9 @@ public class TableIdEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.TABLE)
     @TableGenerator(name = "tableIdentities")
-    public Long id;
+    private Long id;
     @Column
-    public String field;
+    private String field;
 
     public long getId() {
         return id;

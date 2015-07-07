@@ -9,9 +9,9 @@ import javax.persistence.Id;
 public class IncrementIdEntity {
     @Id
     @GeneratedValue(generator = "increment")
-    public Long id;
+    private Long id;
     @Column
-    public String field;
+    private String field;
 
     public long getId() {
         return id;

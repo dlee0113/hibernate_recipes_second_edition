@@ -9,9 +9,9 @@ import javax.persistence.Id;
 public class HiloIdEntity {
     @Id
     @GeneratedValue(generator = "hilo")
-    public Long id;
+    private Long id;
     @Column
-    public String field;
+    private String field;
 
     public long getId() {
         return id;

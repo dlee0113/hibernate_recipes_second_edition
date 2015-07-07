@@ -1,16 +1,18 @@
 package com.apress.hibernaterecipes.chapter2.test;
 
-import com.apress.hibernaterecipes.util.SessionManager;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import static org.testng.Assert.assertEquals;
 
 import java.lang.reflect.Field;
 import java.util.HashSet;
 import java.util.Set;
 
-import static org.testng.Assert.assertEquals;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.apress.hibernaterecipes.util.SessionManager;
+
 
 public class Recipe1Test {
     @DataProvider(name = "idClassNames")
@@ -42,7 +44,9 @@ public class Recipe1Test {
         System.out.println("Testing: " + className);
         Class<?> entityType = Class.forName(className);
         Field idField = entityType.getDeclaredField("id");
+        idField.setAccessible(true);
         Field fieldField = entityType.getDeclaredField("field");
+        fieldField.setAccessible(true);
 
         for (int i = 0; i < 10; i++) {
             Session session = SessionManager.getSessionFactory().openSession();
