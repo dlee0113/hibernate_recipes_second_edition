@@ -3,13 +3,13 @@ package com.apress.hibernaterecipes.chapter3;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.apress.hibernaterecipes.chapter3.model.Address;
-import com.apress.hibernaterecipes.chapter3.model.Customer;
-import com.apress.hibernaterecipes.util.SessionManager;
-
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.testng.annotations.Test;
+
+import com.apress.hibernaterecipes.chapter3.model.Address;
+import com.apress.hibernaterecipes.chapter3.model.Customer;
+import com.apress.hibernaterecipes.util.SessionManager;
 
 public class Recipe3Test {
     @Test

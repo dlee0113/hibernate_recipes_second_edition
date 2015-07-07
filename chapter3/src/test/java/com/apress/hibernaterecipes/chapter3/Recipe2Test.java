@@ -1,12 +1,13 @@
 package com.apress.hibernaterecipes.chapter3;
 
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.testng.annotations.Test;
+
 import com.apress.hibernaterecipes.chapter3.recipe2.Contact;
 import com.apress.hibernaterecipes.chapter3.recipe2.Order;
 import com.apress.hibernaterecipes.chapter3.recipe2.Phone;
 import com.apress.hibernaterecipes.util.SessionManager;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
-import org.testng.annotations.Test;
 
 public class Recipe2Test {
     @Test

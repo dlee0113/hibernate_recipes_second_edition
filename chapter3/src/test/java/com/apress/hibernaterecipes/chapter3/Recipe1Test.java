@@ -1,10 +1,15 @@
 package com.apress.hibernaterecipes.chapter3;
 
-import com.apress.hibernaterecipes.chapter3.model.*;
-import com.apress.hibernaterecipes.util.SessionManager;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.testng.annotations.Test;
+
+import com.apress.hibernaterecipes.chapter3.model.EmbeddedContact;
+import com.apress.hibernaterecipes.chapter3.model.NonEmbeddedOrder;
+import com.apress.hibernaterecipes.chapter3.model.OrderWithEmbeddedContact;
+import com.apress.hibernaterecipes.chapter3.model.OrderWithRelatedContact;
+import com.apress.hibernaterecipes.chapter3.model.RelatedContact;
+import com.apress.hibernaterecipes.util.SessionManager;
 
 public class Recipe1Test {
     @Test
