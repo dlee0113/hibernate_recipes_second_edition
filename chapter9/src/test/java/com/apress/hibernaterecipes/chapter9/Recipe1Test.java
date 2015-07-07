@@ -16,7 +16,7 @@ import java.util.List;
 
 import static org.testng.Assert.assertEquals;
 
-public class Recipe1 {
+public class Recipe1Test {
   @BeforeMethod
   public void clear() {
     SessionManager.deleteAll("Book1");
