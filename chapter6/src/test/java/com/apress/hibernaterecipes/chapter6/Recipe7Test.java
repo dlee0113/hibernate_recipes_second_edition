@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class Recipe7 {
+public class Recipe7Test {
     @BeforeMethod
     public void clearAll() {
         SessionManager.deleteAll("Book7");

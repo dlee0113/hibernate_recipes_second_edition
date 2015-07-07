@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class Recipe3 {
+public class Recipe3Test {
 
 
     @BeforeMethod

@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class Recipe1 {
+public class Recipe1Test {
 
     @BeforeMethod
     public void clearAll() {

@@ -15,7 +15,7 @@ import java.util.*;
 
 import static org.testng.Assert.*;
 
-public class Recipe6 {
+public class Recipe6Test {
     @BeforeMethod
     public void clearAll() {
         SessionManager.deleteAll("Book6NaturalSorting");

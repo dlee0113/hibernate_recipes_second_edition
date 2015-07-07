@@ -13,7 +13,7 @@ import static org.testng.Assert.assertEquals;
 /**
  * Created by Joseph on 9/2/2014.
  */
-public class Recipe2 {
+public class Recipe2Test {
     @BeforeMethod
     public void clearAll() {
         SessionManager.deleteAll("Book2");

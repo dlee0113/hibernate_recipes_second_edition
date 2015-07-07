@@ -19,6 +19,8 @@
 
         <mapping class="com.apress.hibernaterecipes.chapter6.recipe2.Book2"/>
         <mapping resource="com/apress/hibernaterecipes/chapter6/Book2IdBag.hbm.xml"/>
+        
+        <mapping class="com.apress.hibernaterecipes.chapter6.recipe3.Book3"/>
 
         <mapping class="com.apress.hibernaterecipes.chapter6.recipe4.Book4"/>
 
