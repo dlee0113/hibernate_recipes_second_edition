@@ -21,10 +21,6 @@
             <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.apress.hibernaterecipes</groupId>
-            <artifactId>util</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
@@ -36,7 +32,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-ehcache</artifactId>
-            <version>[4.3.6.Final,)</version>
+            <version>${version.hibernate}</version>
         </dependency>
     </dependencies>
 </project>

@@ -1,7 +1,8 @@
 package com.apress.hibernaterecipes.chapter12;
 
-import com.apress.hibernaterecipes.chapter12.recipe2.Book2;
-import com.apress.hibernaterecipes.util.SessionManager;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.fail;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -9,8 +10,8 @@ import org.hibernate.stat.Statistics;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.fail;
+import com.apress.hibernaterecipes.chapter12.recipe2.Book2;
+import com.apress.hibernaterecipes.util.SessionManager;
 
 public class Test2 {
 
