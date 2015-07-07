@@ -4,9 +4,6 @@
              version="2.0">
     <persistence-unit name="chapter1" transaction-type="RESOURCE_LOCAL">
 
-        <class>com.apress.hibernaterecipes.chapter1.model.Publisher</class>
-        <class>com.apress.hibernaterecipes.chapter1.model.Book</class>
-
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:h2:file:./chapter1"/>
