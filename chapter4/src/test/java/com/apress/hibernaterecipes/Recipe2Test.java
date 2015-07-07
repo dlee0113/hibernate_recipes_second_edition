@@ -17,7 +17,7 @@ import java.util.List;
 
 import static org.testng.Assert.assertEquals;
 
-public class Recipe2 {
+public class Recipe2Test {
     @BeforeMethod
     public void cleanAll() {
         Session session = SessionManager.openSession();
