@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertNotNull;
 import static org.testng.Assert.assertNull;
 
-public class Recipe5 {
+public class Recipe5Test {
 
   @BeforeMethod
   public void setup() {
