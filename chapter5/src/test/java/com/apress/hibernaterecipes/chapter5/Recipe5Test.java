@@ -15,19 +15,19 @@ import java.util.List;
 
 import static org.testng.Assert.assertEquals;
 
-public class Recipe5 {
-    @BeforeMethod
-    public void clearAll() {
-        Session session = SessionManager.openSession();
-        Transaction tx = session.beginTransaction();
-        Query query = session.createQuery("from Customer4 c");
-        List<Customer5> customers = query.list();
-        for (Customer5 c : customers) {
-            session.delete(c);
-        }
-        tx.commit();
-        session.close();
-    }
+public class Recipe5Test {
+//    @BeforeMethod
+//    public void clearAll() {
+//        Session session = SessionManager.openSession();
+//        Transaction tx = session.beginTransaction();
+//        Query query = session.createQuery("from Customer5 c");
+//        List<Customer5> customers = query.list();
+//        for (Customer5 c : customers) {
+//            session.delete(c);
+//        }
+//        tx.commit();
+//        session.close();
+//    }
 
     @Test
     public void testOneToOne() {

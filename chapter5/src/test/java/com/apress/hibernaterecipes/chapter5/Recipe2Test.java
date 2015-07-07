@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
-public class Recipe2 {
+public class Recipe2Test {
     @BeforeMethod
     public void cleanAll() {
         Session session = SessionManager.openSession();

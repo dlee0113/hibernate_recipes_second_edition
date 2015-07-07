@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class Recipe3 {
+public class Recipe3Test {
     long eagerKey;
     long lazyKey;
 
@@ -24,7 +24,7 @@ public class Recipe3 {
 
         session.createQuery("delete from ReaderErrata3Eager").executeUpdate();
         session.createQuery("delete from ReaderErrata3Lazy").executeUpdate();
-        session.createQuery("delete from Book1").executeUpdate();
+        session.createQuery("delete from Book3").executeUpdate();
 
         Book3 book3 = new Book3();
         book3.setTitle("The Dog in the Fog");

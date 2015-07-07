@@ -13,7 +13,7 @@ import java.util.List;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
 
-public class Recipe1 {
+public class Recipe1Test {
     @BeforeMethod
     public void cleanAll() {
         Session session = SessionManager.openSession();

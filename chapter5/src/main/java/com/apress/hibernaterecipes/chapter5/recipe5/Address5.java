@@ -13,7 +13,7 @@ public class Address5 implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
-    @OneToOne(mappedBy = "address6")
+    @OneToOne(mappedBy = "address5")
     Customer5 customer;
     String address;
     String city;
