@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
 
-public class Recipe3 {
+public class Recipe3Test {
     @BeforeMethod
     public void clearAll() {
         SessionManager.deleteAll("Book3");
