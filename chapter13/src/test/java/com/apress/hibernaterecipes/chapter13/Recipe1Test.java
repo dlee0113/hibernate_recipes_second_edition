@@ -7,7 +7,7 @@ import org.hibernate.Transaction;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class Recipe1 {
+public class Recipe1Test {
   @BeforeMethod
   public void clearData() {
     SessionManager.deleteAll("Book1");
