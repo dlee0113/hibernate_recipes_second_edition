@@ -15,7 +15,7 @@ import java.util.Map;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class Recipe2 {
+public class Recipe2Test {
     String[][] data = new String[][]{
             {"Book1", "Apress"},
             {"Book2", "Apress"},
